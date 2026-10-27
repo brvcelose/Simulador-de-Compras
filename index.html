@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Cartucho Velho | Loja de games retrô</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&family=IBM+Plex+Sans:wght@400;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="topo">
+    <h1>Cartucho Velho</h1>
+    <p>Loja de games retrô para quem ainda sopra o cartucho antes de jogar. Jogos, consoles e acessórios clássicos, testados um a um.</p>
+  </header>
+
+  <main>
+    <section aria-labelledby="titulo-produtos">
+      <h2 id="titulo-produtos">Prateleira</h2>
+      <ul class="prateleira">
+        <li class="cartucho">
+          <h3>Dragão de 8 Bits</h3>
+          <p>Cartucho de aventura com masmorras, chefes gigantes e trilha sonora em chiptune.</p>
+          <p class="preco">R$ 79,90</p>
+        </li>
+        <li class="cartucho">
+          <h3>Console Bolso Retrô</h3>
+          <p>Portátil com tela colorida, 20 horas de bateria e entrada para cartuchos.</p>
+          <p class="preco">R$ 249,90</p>
+        </li>
+        <li class="cartucho">
+          <h3>Controle Sem Fio</h3>
+          <p>Controle de seis botões com conexão sem fio e direcional reforçado.</p>
+          <p class="preco">R$ 59,90</p>
+        </li>
+        <li class="cartucho">
+          <h3>Kit de Limpeza</h3>
+          <p>Álcool isopropílico e cotonetes para limpar os contatos do cartucho.</p>
+          <p class="preco">R$ 24,90</p>
+        </li>
+      </ul>
+    </section>
+
+    <section class="simulador" aria-labelledby="titulo-simulador">
+      <h2 id="titulo-simulador">Simule sua compra</h2>
+      <ol>
+        <li>Clique em &ldquo;Simular compra&rdquo;.</li>
+        <li>Informe a quantidade de cada produto. Digite 0 para não levar.</li>
+        <li>Veja o valor de cada item e o total.</li>
+      </ol>
+      <p class="desconto">Compras a partir de R$ 200,00 ganham 10% de desconto.</p>
+      <button type="button" onclick="simularCompra()">Simular compra</button>
+    </section>
+  </main>
+
+  <footer>
+    <p>Feito por Welderson Bruce Le Araujo de Sousa</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

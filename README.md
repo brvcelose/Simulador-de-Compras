@@ -3,7 +3,6 @@
 **Projeto:** Cartucho Velho, loja fictícia de games retrô
 **Aluno:** Welderson Bruce Le Araujo de Sousa
 **Trilha:** Desenvolvimento Mobile
-**Vídeo de explicação:** https://drive.google.com/file/d/1ZPgahkunEaMLSvfgg7Z4S3JdmyKz6Gtp/view?usp=drive_link
 
 ## Sobre a loja
 

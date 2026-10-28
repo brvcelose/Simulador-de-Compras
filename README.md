@@ -1,7 +1,9 @@
 # Minha Loja: Simulador de Compras
 
 **Projeto:** Cartucho Velho, loja fictícia de games retrô
+
 **Aluno:** Welderson Bruce Le Araujo de Sousa
+
 **Trilha:** Desenvolvimento Mobile
 
 ## Sobre a loja
